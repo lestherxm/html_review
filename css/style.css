@@ -1,0 +1,44 @@
+html {
+    font-size: 22px;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+/* Basic styles for tables. */
+th,
+td,
+caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+a,
+a:visited {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(84, 84, 152);
+}
+
+summary:hover {
+    background-color: rgb(219, 214, 214);
+    user-select: none;
+    cursor: pointer;
+}
+
+summary+p {
+    background-color: antiquewhite;
+}
