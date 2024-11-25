@@ -22,66 +22,74 @@
 </head>
 
 <body>
-    <h1 id="page-title">Contact Us - Little Taco Shop</h1>
-    <ul>
-        <li>
-            <a href="./index.html">Home</a>
-        </li>
-        <li>
-            <a href="./index.html#about-lts">About LTS</a>
-        </li>
-        <li>
-            <a href="./index.html#our-menu">Our Menu</a>
-        </li>
-        <li>
-            <a href="./hours.html">Store Hours</a>
-        </li>
-    </ul>
-    <figure>
-        <img src="./images/tacos_from_lts.jpg" alt="Tacos from LTS" title="Tacos from LTS" width="270">
-        <figcaption>Tacos made by LTS. 🌮</figcaption>
-    </figure>
-    <section id="contact-form">
-        <h2>Our Contact Form</h2>
-        <form action="">
-            <fieldset>
-                <legend>Send Us A Message</legend>
-                <p>
-                    <label for="nickname">Nickname:</label>
-                    <input type="text" id="nickname" name="nickname" placeholder="Your nickname">
-                </p>
-                <p>
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" name="email" placeholder="Your email">
-                </p>
-                <p>Your Message:</p>
-                <textarea name="message" id="message" placeholder="Type your message here..." cols="30"
-                    rows="10"></textarea>
-            </fieldset>
-            <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
-            <button type="reset">Reset</button>
-        </form>
-    </section>
-    <section id="location-lts">
-        <h2>Our Location</h2>
-        <address>
-            555 Taco Temptation Lane, Suit T
+    <header>
+        <h1 id="page-title">Contact Us - Little Taco Shop</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./index.html#about-lts">About LTS</a>
+                </li>
+                <li>
+                    <a href="./index.html#our-menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="./hours.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="./images/tacos_from_lts.jpg" alt="Tacos from LTS" title="Tacos from LTS" width="270">
+            <figcaption>Tacos made by LTS. 🌮</figcaption>
+        </figure>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Our Contact Form</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+                    <p>
+                        <label for="nickname">Nickname:</label>
+                        <input type="text" id="nickname" name="nickname" placeholder="Your nickname">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" placeholder="Your email">
+                    </p>
+                    <p>Your Message:</p>
+                    <textarea name="message" id="message" placeholder="Type your message here..." cols="30"
+                        rows="10"></textarea>
+                </fieldset>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section id="location-lts">
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Temptation Lane, Suit T
+                <br>
+                Guatemala City, MO 1234567-89ABC
+                <br>
+            </address>
             <br>
-            Guatemala City, MO 1234567-89ABC
-            <br>
-        </address>
-        <br>
-        <em>
-            Phone:
-            <a href="tel:12345678">(+502) 12345678</a>
-        </em>
-    </section>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <a href="#page-title">Back to top ☝🏼</a>
+            <em>
+                Phone:
+                <a href="tel:12345678">(+502) 12345678</a>
+            </em>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a href="#page-title">Back to top ☝🏼</a>
+    </main>
     <hr>
-    <p>
-        Copyright &copy; The Little Taco Shop by Andoti
-    </p>
+    <footer>
+        <p>
+            Copyright &copy; The Little Taco Shop by Andoti
+        </p>
+    </footer>
 </body>
 
 </html>
